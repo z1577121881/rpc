@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- mybatis 的配置文件 -->
+<configuration>
+    <!-- 命名空间 -->
+    <typeAliases>
+        <!--alias 对应的是UserMapper.xml文件中的 <resultMap id="user" type="User"> </resultMap>-->
+        <typeAlias alias="User" type="com.whatdy.model.User"/>
+        <!--//......-->
+    </typeAliases>
+    <!-- 映射map <mappers>......</mappers>(但是我这里已经在spring-mybatis.xml中已经配置,哈哈哈)-->
+
+</configuration>
