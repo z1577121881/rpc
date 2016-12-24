@@ -234,7 +234,6 @@
     <!--weibo rpc -->
     <!--https://github.com/weibocom/motan-->
     <!-- https://mvnrepository.com/artifact/com.weibo/motan-core -->
-    <!-- https://mvnrepository.com/artifact/com.weibo/motan-core -->
     <dependency>
       <groupId>com.weibo</groupId>
       <artifactId>motan-core</artifactId>
@@ -252,6 +251,20 @@
       <artifactId>motan-springsupport</artifactId>
       <version>0.2.2</version>
     </dependency>
+    <dependency>
+        <groupId>com.weibo</groupId>
+        <artifactId>motan-registry-consul</artifactId>
+        <version>0.1.1</version>
+    </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+      <dependency>
+          <groupId>org.apache.httpcomponents</groupId>
+          <artifactId>httpclient</artifactId>
+          <version>4.5.2</version>
+      </dependency>
+
+
 
   </dependencies>
 

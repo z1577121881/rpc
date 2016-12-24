@@ -8,7 +8,9 @@
     <!-- service implemention bean -->
     <bean id="serviceImpl" class="quickstart.FooServiceImpl" />
     <!-- exporting service by motan -->
-    <motan:service interface="quickstart.FooService" ref="serviceImpl" export="8002" />
+    <!--<motan:service interface="quickstart.FooService" ref="serviceImpl" export="8002" />-->
+    <!--增加consul registry定义-->
 
-
+    <motan:registry regProtocol="consul" name="my_consul" address="127.0.0.1:8500"/>
+    <motan:service interface="quickstart.FooService" ref="serviceImpl" registry="my_consul" export="8002" />
 </beans>
