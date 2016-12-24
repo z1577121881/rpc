@@ -165,7 +165,8 @@
 
     测试环境启动：
     consul agent -dev
-
+如果不能正确启动请添加绑定ip
+    consul agent -dev -bind  192.168.1.148
 ui后台 [http://localhost:8500/ui](http://localhost:8500/ui)
 
 #### <a id="motan-consul"></a>Motan-Consul配置
