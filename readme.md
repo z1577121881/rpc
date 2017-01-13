@@ -7,3 +7,20 @@
 http://h2ex.com/820 <br/>
 https://github.com/weibocom/motan <br/>
 https://github.com/weibocom/motan/blob/master/docs/wiki/zh_quickstart.md <br/>
+
+###使用
+首先启动 consul.exe
+consul agent -dev
+ or
+consul agent -dev -bind  127.0.0.1
+进入ui页面
+http://127.0.0.1:8500/ui/
+
+然后启动服务器
+src/main/javaquickstart/Server.java
+然后启动客户端
+src/main/javaquickstart/Client.java
+
+###相关下载
+[consul](https://www.consul.io/downloads.html)
+

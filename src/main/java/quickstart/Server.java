@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Created by An on 2016/12/23.
+ * 启动服务端
  */
 public class Server {
     public static void main(String[] args) throws InterruptedException {
